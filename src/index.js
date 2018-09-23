@@ -5,6 +5,7 @@ import StringUtiliesComponent from "./component/string_utilities";
 import MapFilterReduceComponent from "./component/map_filter_reduce";
 import ArraysComponent from "./component/arrays";
 import CurryingComponent from "./component/currying";
+import RestSpreadOperatorComponent from "./component/rest_spread_operator";
 import "./styles.css";
 
 function App() {
@@ -12,11 +13,13 @@ function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <StringUtiliesComponent />
+      {/*}      <StringUtiliesComponent />
       <MapFilterReduceComponent />
       <LetVsVarComponent />
       <ArraysComponent />
       <CurryingComponent />
+   */}{" "}
+      <RestSpreadOperatorComponent />
     </div>
   );
 }
