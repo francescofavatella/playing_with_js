@@ -4,6 +4,7 @@ import LetVsVarComponent from "./component/let_vs_var";
 import StringUtiliesComponent from "./component/string_utilities";
 import MapFilterReduceComponent from "./component/map_filter_reduce";
 import ArraysComponent from "./component/arrays";
+import CurryingComponent from "./component/currying";
 import "./styles.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <MapFilterReduceComponent />
       <LetVsVarComponent />
       <ArraysComponent />
+      <CurryingComponent />
     </div>
   );
 }
